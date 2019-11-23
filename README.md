@@ -49,6 +49,7 @@ All the attacker would need to do, is iframe the vulnerable page and receive the
 
 This is a Burp extension which helps you find usages of cross origin messaging so that you can investigate the implementation closely and determine if it is secure or not.
 
+![alt text](https://raw.githubusercontent.com/physics-sp/DetectCrossOriginMessaging/master/ejemplo.png)
 
 ### More information
 
