@@ -41,7 +41,7 @@ An information leak occurs when a page sends a postMessage to an attacker contro
 This can happen in a number of ways, for example, the pages assumes that is being iframed by a trusted domain, and sends the message to the parent element.
 
 ```javascript
-parent.postMessage(sensitiveData, "*");
+window.parent.postMessage(sensitiveData, "*");
 ```
 All the attacker would need to do, is iframe the vulnerable page and receive the message.
 
