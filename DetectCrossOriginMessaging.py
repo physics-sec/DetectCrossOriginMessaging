@@ -79,7 +79,7 @@ class BurpExtender(IBurpExtender, IScannerCheck, IExtensionStateListener, IHttpR
             self._helpers.analyzeRequest(baseRequestResponse).getUrl(),
             [self._callbacks.applyMarkers(baseRequestResponse, None, matches)],
             "Cross origin mesagging detected",
-            "Using postMessage or recvMessage can lead to XSS or information leak if used carelessly. It should be further investigated",
+            "Receiving messages from untrusted domains can lead to DOM XSS and sending messages to untrusted domains can lead to information disclosure. It should be further investigated to check if it is implemented in a secure manner.\nFor more information check: https://www.sec-1.com/blog/wp-content/uploads/2016/08/Hunting-postMessage-Vulnerabilities.pdf",
             "Information")]
 
     def consolidateDuplicateIssues(self, existingIssue, newIssue):
