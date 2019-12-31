@@ -15,17 +15,21 @@ GREP_STRINGS = [
     ".postMessage(",
     ".postMessage (",
     ".addEventListener(\"message\"",
-    ".addEventListener('message'",
     ".addEventListener( \"message\"",
+    ".addEventListener('message'",
     ".addEventListener( 'message'",
-    "add(window, \"message\"",
     "add(window,\"message\"",
-    "add(window, 'message'",
+    "add(window, \"message\"",
     "add(window,'message'",
-    "addListener(window, \"message\"",
+    "add(window, 'message'",
     "addListener(window,\"message\"",
+    "addListener(window, \"message\"",
+    "addListener(window,'message'",
     "addListener(window, 'message'",
-    "addListener(window,'message'"
+    ".attachEvent(\"onmessage\"",
+    ".attachEvent( \"onmessage\"",
+    ".attachEvent('onmessage'",
+    ".attachEvent( 'onmessage'"
     ]
 
 GREP_STRINGS_BYTES = []
