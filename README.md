@@ -51,6 +51,10 @@ This is a Burp extension which helps you find usages of cross origin messaging s
 
 ![alt text](https://raw.githubusercontent.com/physics-sp/DetectCrossOriginMessaging/master/ejemplo.png)
 
+### Wiki
+
+Check the wiki for examples of PoC exploits for several common scenarios.
+
 ### More information
 
 To learn more about this type of vulnerability, I highly recommend reading [this amazing paper](https://www.sec-1.com/blog/wp-content/uploads/2016/08/Hunting-postMessage-Vulnerabilities.pdf).
